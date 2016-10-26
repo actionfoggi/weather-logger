@@ -1,8 +1,13 @@
-node_modules
-public
+/node_modules
 .tmp
 .sass-cache
+.buildignore
 .idea
+.bowerrc
+.editorconfig
+.gitattributes
+.travis.yml
+.yo-rc.json
 client/bower_components
 dist
 /server/config/local.env.js
