@@ -1,15 +1,11 @@
-.main-shell {
-  .profile-container {
-    font-size: 14px;
-    height: 100%;
-
-    .profile-name {
-      font-weight: 500;
-     }
-   }
- }
+.app {
+  height: 100%;
+}
 
 // Component styles are injected through grunt
 // injector
 @import 'main/main.scss';
+@import 'datatable/datatable.scss';
+@import 'footer/footer.scss';
+@import 'header/header.scss';
 // endinjector
