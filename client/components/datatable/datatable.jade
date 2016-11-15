@@ -1,0 +1,11 @@
+md-list
+  md-subheader
+    | blub
+  md-list-item.md-1-line(ng-repeat="n in test")
+    div.flex
+      | bar {{n}}
+    div.flex
+      | foo {{n}}
+    div.flex
+      | baz {{n}}
+    md-divider
