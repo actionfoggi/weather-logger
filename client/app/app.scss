@@ -1,4 +1,7 @@
+body,
+html,
 .app {
+  display: block;
   height: 100%;
 }
 
@@ -7,5 +10,5 @@
 @import 'main/main.scss';
 @import 'datatable/datatable.scss';
 @import 'footer/footer.scss';
-@import 'header/header.scss';
+@import 'toolbar/toolbar.scss';
 // endinjector
